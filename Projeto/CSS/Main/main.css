@@ -1,0 +1,87 @@
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.container_section1{
+    padding-top: 110px;
+    max-width: 462px;
+}
+
+.container_section1 p{
+    color: #fff;
+    font-size: 32px;
+    font-family: sans-serif;
+    padding-bottom: 50px;
+}
+
+.container_section1 h1{
+    font-family: "Krona One", sans-serif;
+    color: #CB995A;
+    font-size: 96px;
+    padding-bottom: 20px;
+}
+
+.container_section2 img{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 503px;
+    height: 832px;
+    z-index: 1;
+    padding-top: 40px;
+}
+.playvideo img{
+    width: 60px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.playvideo img:hover{
+    transform: scale(1.1);
+}
+
+.playvideo p{
+    margin-top: 42px;
+    font-size: 21px;
+}
+.playvideo{
+display: flex;
+align-items: center;
+gap: 15px;
+}
+
+img#shape1{
+    position: absolute;
+    width: 313px;
+    height: 313px;
+    transform: translate(-44%,-131%);
+    z-index: 0;
+}
+
+img#shape2{
+    position: absolute;
+    transform: translate(-134%,-27%);
+    height: 210px;
+    width: 210px;
+    z-index: 0;
+}
+
+img#shape3{
+    position: absolute;
+    transform: translate(120%,-166%);
+    height: 261px;
+    width: 261px;
+    z-index: 0;
+}
+
+img#shape4{
+    position: absolute;
+    transform: translate(152%,-40%);
+    height: 278px;
+    width: 278px;
+    z-index: 0;
+}

@@ -1,0 +1,47 @@
+
+.header_container{
+    padding-top: 20px;
+    display: block;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.header_container h1{
+    font-family: "Righteous", sans-serif;
+    color: #fff;
+    font-size: 40px;
+    margin-right: 250px;
+    cursor: pointer;
+}
+
+.nav-links ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links ul button{
+    color: #000;
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 3px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.nav-links ul  button:hover{
+    background-color: #eeeeee;
+}
+
+.nav-links li{
+    list-style-type: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-links li:hover{
+    color: #cb995a;
+}
